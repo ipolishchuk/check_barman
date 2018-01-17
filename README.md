@@ -72,3 +72,8 @@ PARAMETERS
 
 The script was tested with Python 2.7.5, Postgresql 9.6 and  9.5
 
+CONTRIBUTORS
+------------
+
+* [Vladimir Borodin] (https://github.com/dev1ant)
+* [Igor Polishchuk] (https://github.com/ipolishchuk)
