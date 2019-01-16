@@ -210,7 +210,9 @@ def start_postgres(bd,cluster,backup, path):
 
 def get_pg_version(bd,cluster,backup):
    full_version = bd['servers'][cluster]['backups'][backup]['version']
-   version = '%d.%d' % (full_version/10000, full_version/100 % 100)
+   # Before v10
+   #version = '%d.%d' % (full_version/10000, full_version/100 % 100)
+   version = '%s' % (full_version/10000)
    return version
 
 def get_conn_string(bd,cluster):
